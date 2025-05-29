@@ -41,6 +41,18 @@ Add more divide-and-conquer algorithms (e.g., merge sort, closest pair) 🔢
 Include a graphical interface using Qt for interactive input/output 🎨  
 Support file-based input for large arrays 📝  
 Visualize algorithm steps for educational purposes 📉
+# Divide and Conquer Algorithm Paper
+
+Welcome to our project! This repository contains a LaTeX paper exploring two cool algorithms that use the divide-and-conquer approach: Fast Exponentiation and Peak Element. We’re a team of students from the Faculty of Computer Science at Misr International University, and we put this together to dive into how these methods solve problems efficiently.
+What’s Inside?
+
+Fast Exponentiation: A smart way to calculate powers (like <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>x</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex"> x^n </annotation></semantics></math>) by breaking the problem into smaller steps, making it super fast for things like cryptography and game development.
+Peak Element: A technique to find a number in an array that’s bigger than its neighbors, useful for apps like health trackers or music analysis.
+Details: The paper includes explanations, C++ code examples, time complexity analyses (both run in <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> O(\log n) </annotation></semantics></math> time!), real-world applications, and a comparison of the two algorithms.
+Reference: We drew inspiration from Foundations of Algorithms by Neapolitan and Naimipour (2009) to explain the divide-and-conquer strategy.
+
+Why Check This Out?
+This project shows how breaking problems into smaller pieces can lead to big wins in speed and efficiency. Whether you’re into coding, algorithms, or just curious, you’ll find something interesting here. The LaTeX source is included, so feel free to compile it or tweak it for your own use!
 
 License:MIT License  
 Contributing:Contributions are welcome! 🙌 Please submit a pull request or open an issue to discuss improvements or bugs.
